@@ -3,44 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
     <title>Promo del dia</title>
 </head>
-<body>
+<body class="body">
     <header>
-        <nav>
-            <li><a href="/menu/menu.html"><img src="" alt="La Retro logo"></a></li>  
-            <br>
-            <h4>La Retro</h4> 
+        <nav class="body__nav">
+            <a href="/menu/menu.html"><img class="body__nav--logo" src="/fotos comidas/logo 2.png" alt="La Retro logo"></a>
+            <h4 class="body__nav--nombre">LA RETRO</h4> 
         </nav>
     </header>
-    <h2>Promo del dia</h2>
-    <div>
-        <img src="/fotos comidas/lomito.jpg" alt="lomito">
-        <p>Sandwich de lomo abundante, armado con un pan casero de papa, huevo, manteca, lechuga, tomate, jamon y acompañado por una porcion de papas </p>
+    <div class="divComidas">
+        <section class=" divComidas__section1">
+            <img class="divComidas__img" src="/fotos comidas/lomito.jpg" alt="lomito">
+        </section>
+        <section class="divComidas__section2">
+            <h2 class="h2 divComidas__section2--titulo">PROMO DEL DIA</h2>
+            <p class="parrafos">Sandwich de lomo abundante, armado con un pan casero de papa, huevo, manteca, lechuga, tomate, jamon y acompañado por una porcion de papas </p>
+        </section>
     </div>
     <div>
-        <h3>Precios de la Promo:</h3>
-        <ul>
-            <li><p>Lomo con papas mas dos bebidas: 5000</p></li>
+        <h3 class="h2 divPrecios"> PRECIO DE LA PROMO:</h3>
+        <ul class="divPrecios__lista">
+            <li class="divPrecios__lista--item"><p class="parrafos">Lomo con papas mas dos bebidas: 5000</p></li>
         </ul>
     </div>
     <div>
-        <h3>Agregados:</h3>
-        <ul>
-            <li><p>Baño de queso: 1000</p></li>
-            <li><p>doble carne: 1000</p></li>
-            <li><p>doble huevo: 500</p></li>
+        <h3 class="h2 divAgregados">AGREGADOS:</h3>
+        <ul class="divAgregados__lista">
+            <li class="divAgregados__lista--item"><p class="parrafos">Baño de queso: 1000</p></li>
+            <li class="divAgregados__lista--item"><p class="parrafos">doble carne: 1000</p></li>
+            <li class="divAgregados__lista--item"><p class="parrafos">doble huevo: 500</p></li>
         </ul>
-    </div>
-    <footer>
-        <div>
-            <ul>
-                <li><a href=""><img src="" alt="gmail"></a></li>
-                <li><a href=""><img src="" alt="whatsapp"></a></li>
-                <li><a href=""><img src="" alt="instagram"></a></li>            
-                <li><a href=""><img src="" alt="facebook"></a></li>
-            </ul>
-         </div>
-   </footer> 
+    </div> 
+    <footer class="body__pieDePagina">
+        <ul class="body__pieDePagina--lista">
+            <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-gmail.png" alt="gmail"></a></li>
+            <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-celular.png" alt="whatsapp"></a></li>
+            <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-intagram.png" alt="instagram"></a></li>            
+            <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-facebook.png" alt="facebook"></a></li>
+        </ul>
+    </footer> 
 </body>
 </html>

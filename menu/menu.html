@@ -3,50 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Retro</title>
+        <link rel="stylesheet" href="/estilos/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/ico" href="/fotos comidas/logo-2.ico"/>
+        <title> Menu La Retro</title>
     </head>
-    <body>
+    <body class="body">
         <header>
-            <nav>
-                <a href=""><img src="" alt="La Retro logo"></a>
-                <br>
-                <h4>La Retro</h4> 
+            <nav class="body__nav">
+                <a href=""><img class="body__nav--logo" src="/fotos comidas/logo 2.png" alt="La Retro logo"></a>
+                <h4 class="body__nav--nombre">LA RETRO</h4> 
             </nav>
         </header>
-        <h1>Menú</h1>
-        <div>
-            <img src="" alt="fotos del resto bar">
+        <h1 class="tituloDePagina titulosMenu">MENÚ</h1>
+        <h2 class="h2 titulosMenu">PROMOCIÓN DEL DIA</h2>
+        <div class="body__div">
+           <a href="promociones/promolomito.html"><img class="body__div--img" src="/fotos comidas/lomito.jpg" alt="promo del dia"></a>
         </div>
-        <h2>Promoción del dia</h2>
-        <div>
-           <a href="promociones/promolomito.html"><img src="/fotos comidas/lomito.jpg" alt="promo del dia"></a>
-        </div>
-        <h2>¿Qué querés disfrutar hoy? </h2>
-        <div>
-            <table>  <!--cambiar por css la tabla-->
-                <tr>
-                    <td>
-                        <h3>Bebidas</h3> 
-                        <br>
-                        <a href="clases-de-comidas/bebidas.html"><img src="/fotos comidas/bebidas.webp" alt="bebidas"></a>
-                    </td>
-                    <td>
-                        <h3>Pizzas</h3> 
-                        <br>
-                        <a href="clases-de-comidas/pizzas.html"><img src="/fotos comidas/pizzas.avif" alt="pizzas"></a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-       <footer>
-            <div>
-                <ul>
-                    <li><a href=""><img src="" alt="gmail"></a></li>
-                    <li><a href=""><img src="" alt="whatsapp"></a></li>
-                    <li><a href=""><img src="" alt="instagram"></a></li>            
-                    <li><a href=""><img src="" alt="facebook"></a></li>
+        <h2 class="h2 titulosMenu">¿QUÉ QUERÉS DISFRUTAR HOY? </h2>
+        <section class="body__section">
+                <a href="clases-de-comidas/bebidas.html"><img class="body__section--img" src="/fotos comidas/copa.jpg" alt="bebidas"></a>
+                <a href="clases-de-comidas/pizzas.html"><img class="body__section--img" src="/fotos comidas/pizza.jpg" alt="pizzas"></a>
+        </section>
+       <footer class="body__pieDePagina">
+                <ul class="body__pieDePagina--lista">
+                    <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-gmail.png" alt="gmail"></a></li>
+                    <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-celular.png" alt="whatsapp"></a></li>
+                    <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-intagram.png" alt="instagram"></a></li>            
+                    <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-facebook.png" alt="facebook"></a></li>
                 </ul>
-             </div>
        </footer> 
     </body>
 </html>

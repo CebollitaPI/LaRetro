@@ -3,40 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
     <title>Bebidas</title>
 </head>
-<body>
+<body class="body">
     <header>
-        <nav>
-            <li><a href="/menu/menu.html"><img src="" alt="La Retro logo"></a></li>  
-            <br>
-            <h4>La Retro</h4> 
+        <nav class="body__nav">
+            <a href="/menu/menu.html"><img class="body__nav--logo" src="/fotos comidas/logo 2.png" alt="La Retro logo"></a>
+            <h4 class="body__nav--nombre">LA RETRO</h4> 
         </nav>
     </header>
-    <div>
-        <h2>Bebidas</h2>
-    </div>
-    <div>
-        <table><!--cambiar por css la tabla-->
-            <tr>
-                <td><a href="bebidas/Gin.html"><img src="/fotos comidas/gin.jpg" alt="Gin"></a></td>
-                <td><a href=""><img src="/fotos comidas/cocacola.jpg" alt="Cocacola"></a></td>
-            </tr>
-            <tr>
-                <td><a href=""><img src="/fotos comidas/sprite.jpg" alt="Sprite"></a></td>
-                <td><a href=""><img src="/fotos comidas/vino.jfif" alt="Vino"></a></td>
-            </tr>
-        </table>
-    </div>
-    <footer>
-        <div>
-            <ul>
-                <li><a href=""><img src="" alt="gmail"></a></li>
-                <li><a href=""><img src="" alt="whatsapp"></a></li>
-                <li><a href=""><img src="" alt="instagram"></a></li>            
-                <li><a href=""><img src="" alt="facebook"></a></li>
-            </ul>
+         <div>
+             <h2 class="h2 titulosMenu ">BEBIDAS</h2>
          </div>
-   </footer> 
-</body>
+        <section class="body__section">
+            <a href="bebidas/Gin.html"><img class="body__section--img" src="/fotos comidas/gin.jpg" alt="Gin"></a>
+            <a href=""><img class="body__section--img" src="/fotos comidas/cocacola.jpg" alt="Cocacola"></a>
+            <a href=""><img class="body__section--img" src="/fotos comidas/agua.webp" alt="Agua"></a>
+            <a href=""><img class="body__section--img" src="/fotos comidas/vino.jfif" alt="Vino"></a>
+        </section>
+        <footer class="body__pieDePagina">
+            <ul class="body__pieDePagina--lista">
+                <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-gmail.png" alt="gmail"></a></li>
+                <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-celular.png" alt="whatsapp"></a></li>
+                <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-intagram.png" alt="instagram"></a></li>            
+                <li class="body__pieDePagina--lista--item"><a href=""><img class="body__pieDePagina--lista--img" src="/fotos comidas/icono-facebook.png" alt="facebook"></a></li>
+            </ul>
+        </footer> 
+    </body>
 </html>
